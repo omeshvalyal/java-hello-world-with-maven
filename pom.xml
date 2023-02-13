@@ -47,20 +47,4 @@
                 </executions>
             </plugin>
         </plugins>
-  <distributionManagement>
-
-<repository>
-<id>nexus</id>
-<name>releaserepo</name>
-<url>http://3.86.111.43:8081/repository/maven-repo/</url>
-</repository>
-
-<snapshotRepository>
-<id>nexus</id>
-<name>snapshotrepo</name>
-<url>http://3.86.111.43:8081/repository/maven-snapshot/</url>
-</snapshotRepository>
-      </distributionManagement>
-    </build>
-    
-</project>
+    </project>
